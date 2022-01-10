@@ -1,4 +1,163 @@
 body{
-    background-color: #fff;
+    background-color: #000;
     min-height: 100vh;
+    font-family: sans-serif;
 }
+
+.content{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 20px;
+}
+
+.red{
+    animation: red 4s infinite both;
+}
+
+.green{
+    animation: green 4s infinite both;
+}
+
+.yellow{
+    animation: yellow 4s infinite both;
+}
+
+.blue{
+    animation: blue 4s infinite both;
+}
+
+@keyframes red{
+    0% {
+        transform: translate(0, 0);
+    }
+
+    25% {
+        transform: translate(200px, 0);
+    }
+
+    50% {
+        transform: translate(200px, 200px);
+    }
+
+    75%{
+        transform: translate(0, 200px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+
+    }
+}
+
+@keyframes green{
+    0% {
+        transform: translate(200px, 0);
+    }
+
+    25% {
+        transform: translate(200px, 200px);
+    }
+
+    50% {
+        transform: translate(0px, 200px);
+    }
+
+    75%{
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(200px, 0);
+
+    }
+}
+
+@keyframes yellow{
+    0% {
+        transform: translate(200px, 200px);
+    }
+
+    25% {
+        transform: translate(0px, 200px);
+    }
+
+    50% {
+        transform: translate(0px, 0);
+    }
+
+    75%{
+        transform: translate(200px, 0);
+    }
+
+    100% {
+        transform: translate(200px, 200px);
+
+    }
+}
+
+@keyframes blue{
+    0% {
+        transform: translate(0px, 200px);
+    }
+
+    25% {
+        transform: translate(0px, 0);
+    }
+
+    50% {
+        transform: translate(200px, 0);
+    }
+
+    75%{
+        transform: translate(200px, 200px);
+    }
+
+    100% {
+        transform: translate(0, 200px);
+    }
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.red{
+    background-color: red;
+    transform: translate(0, 0);
+}
+
+.green{
+    background-color: green;
+    transform: translate(200px, 0);
+}
+
+.yellow{
+    background-color: yellow;
+    transform: translate(200px, 200px);
+}
+
+.blue{
+    background-color: blue;
+    transform: translate(0, 200px);
+}
+
+.title{
+    width: 100%;
+    position: absolute;
+    bottom: -100px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+
