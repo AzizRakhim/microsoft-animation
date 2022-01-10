@@ -1,12 +1,12 @@
 body{
-    background-color: #000;
+    background-color: #373737;
     min-height: 100vh;
     font-family: sans-serif;
 }
 
 .content{
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -36,15 +36,15 @@ body{
     }
 
     25% {
-        transform: translate(200px, 0);
+        transform: translate(100px, 0);
     }
 
     50% {
-        transform: translate(200px, 200px);
+        transform: translate(100px, 100px);
     }
 
     75%{
-        transform: translate(0, 200px);
+        transform: translate(0, 100px);
     }
 
     100% {
@@ -55,15 +55,15 @@ body{
 
 @keyframes green{
     0% {
-        transform: translate(200px, 0);
+        transform: translate(100px, 0);
     }
 
     25% {
-        transform: translate(200px, 200px);
+        transform: translate(100px, 100px);
     }
 
     50% {
-        transform: translate(0px, 200px);
+        transform: translate(0px, 100px);
     }
 
     75%{
@@ -71,18 +71,18 @@ body{
     }
 
     100% {
-        transform: translate(200px, 0);
+        transform: translate(100px, 0);
 
     }
 }
 
 @keyframes yellow{
     0% {
-        transform: translate(200px, 200px);
+        transform: translate(100px, 100px);
     }
 
     25% {
-        transform: translate(0px, 200px);
+        transform: translate(0px, 100px);
     }
 
     50% {
@@ -90,40 +90,40 @@ body{
     }
 
     75%{
-        transform: translate(200px, 0);
+        transform: translate(100px, 0);
     }
 
     100% {
-        transform: translate(200px, 200px);
+        transform: translate(100px, 100px);
 
     }
 }
 
 @keyframes blue{
     0% {
-        transform: translate(0px, 200px);
+        transform: translate(0px, 100px);
     }
 
     25% {
-        transform: translate(0px, 0);
+        transform: translate(0, 0);
     }
 
     50% {
-        transform: translate(200px, 0);
+        transform: translate(100px, 0);
     }
 
     75%{
-        transform: translate(200px, 200px);
+        transform: translate(100px, 100px);
     }
 
     100% {
-        transform: translate(0, 200px);
+        transform: translate(0, 100px);
     }
 }
 
 .box{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     position: absolute;
     top: 0;
     left: 0;
@@ -132,32 +132,33 @@ body{
 }
 
 .red{
-    background-color: red;
+    background-color: #ff0506;
     transform: translate(0, 0);
 }
 
 .green{
-    background-color: green;
-    transform: translate(200px, 0);
+    background-color: #068304;
+    transform: translate(100px, 0);
 }
 
 .yellow{
-    background-color: yellow;
-    transform: translate(200px, 200px);
+    background-color: #ffff03;
+    transform: translate(100px, 200px);
 }
 
 .blue{
-    background-color: blue;
-    transform: translate(0, 200px);
+    background-color: #0403ff;
+    transform: translate(0, 100px);
 }
 
 .title{
     width: 100%;
     position: absolute;
-    bottom: -100px;
-    color: #fff;
+    bottom: -120px;
+    left: -20px;
+    color: #fffff2;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 52px;
 }
 
 
